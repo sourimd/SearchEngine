@@ -1,0 +1,18 @@
+This is a mini search engine project that I did as part of Database Management System Design Course.
+
+Given a query string to search for, this application will look for all the documents in a TREC-9 file
+and rank them based on their Binary Frequency Count. As a pre-processing step first I created an Inverted
+Index of all the keywords in the documents using Porters algorithm. What Porter's algorithm does is it
+strips all words and come out with only the root word. Inverted indices will be created based on these
+root words.
+
+When the user enters a word in the search bar and hits SEARCH button, all the documents 
+containing that word will be displayed. These documents will be ranked according to the frequency of occurence 
+of that word.
+
+If the user enters more than one word then the frequncies will be multiplied and the document having
+the highest multiplied frequency count will be ranked higher.
+
+A working demo of this app can be found at this link- http://people.cs.clemson.edu/~sourimd/CPSC862/Ass8/
+
+I have used PHP, HTML and JavaScript to write this app.
